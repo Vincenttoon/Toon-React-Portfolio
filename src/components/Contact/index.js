@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 // import { validateEmail } from '../../utils';
 
-function ContactForm() {
+function Contact() {
   return (
     <div>
       <p>This is the Contact tab</p>
@@ -9,4 +9,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../src/components/Header";
 import About from "./components/About";
-import ContactForm from "../src/components/Contact";
+import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
@@ -21,7 +21,7 @@ const displayTab = () => {
     return <Resume />
   }
   if (currentTab === 'Contact') {
-    return <ContactForm />
+    return <Contact />
   }
   return <About />
 }

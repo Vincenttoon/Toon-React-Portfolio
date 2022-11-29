@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav";
-import About from '../About';
 
 function Header(props) {
   const { currentTab, handleTabChange } = props;
@@ -19,11 +18,6 @@ function Header(props) {
             ></Nav>
           </div>
         </header>
-      </section>
-      <section>
-        <div>
-            <About></About>
-        </div>
       </section>
     </div>
   );

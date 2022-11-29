@@ -1,14 +1,39 @@
 import React from "react";
-// import About from '../About';
-// import Contact from '../Contact';
-// import Portfolio from '../Portfolio';
-// import Resume from '../Resume';
 
 function Nav(props) {
+    const { currentTab, handleTabChange } = props;
+
   return (
-    <div>
-      <p>This is the Nav tab</p>
-    </div>
+    <nav>
+        <ul className="nav">
+            <li>
+                <a href="#about" onClick={() => handleTabChange('About')} className={currentTab === 'About' ? 'nav-link-active' : 'nav-link'}>
+                    About
+                </a>
+            </li>
+        </ul>
+        <ul className="nav">
+            <li>
+                <a href="#portfolio" onClick={() => handleTabChange('Portfolio')} className={currentTab === 'Portfolio' ? 'nav-link-active' : 'nav-link'}>
+                    Portfolio
+                </a>
+            </li>
+        </ul>
+        <ul className="nav">
+            <li>
+                <a href="#contact" onClick={() => handleTabChange('Contact')} className={currentTab === 'Contact' ? 'nav-link-active' : 'nav-link'}>
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <ul className="nav">
+            <li>
+                <a href="#resume" onClick={() => handleTabChange('Resume')} className={currentTab === 'Resume' ? 'nav-link-active' : 'nav-link'}>
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </nav>
   );
 }
 
