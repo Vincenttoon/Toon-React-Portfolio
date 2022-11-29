@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
-import { validateEmail } from '../../utils';
+import React, { useState } from "react";
+// import { validateEmail } from '../../utils';
 
 function ContactForm() {
-
-    return (
-        <div></div>
-    );
+  return (
+    <div>
+      <p>This is the Contact tab</p>
+    </div>
+  );
 }
 
 export default ContactForm;
