@@ -1,4 +1,5 @@
 import React from "react";
+import meImg from '../../assets/small/me_pic.jpg';
 
 function About() {
   return (
@@ -8,6 +9,7 @@ function About() {
       </div>
       <div>
         <div className="img-div">
+          <img src={meImg} className='vince-img' style={{ width: "20%" }} alt='Vincent smiling' />
         </div>
         <div className="txt-div">
             <p>
