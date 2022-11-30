@@ -15,7 +15,6 @@ function About() {
         <img
             src={meImg}
             className="vince-img"
-            style={{ width: "20%" }}
             alt="Vincent smiling"
           />
           <p className="abt-txt">
@@ -28,7 +27,8 @@ function About() {
             full stack developer and approach a lifelong interest of mine into a
             career. Computers and the web have always been an important focus of
             my interest and am ready to both learn and contribute to the web I
-            have spent so much time learning and immersing myself in.
+            have spent so much time learning and immersing myself in. When I am not
+            coding I am spending time with my dog and friends, hopefully outside.
           </p>
         </div>
       </div>
