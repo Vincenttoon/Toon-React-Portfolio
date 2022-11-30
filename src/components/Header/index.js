@@ -5,14 +5,14 @@ function Header(props) {
   const { currentTab, handleTabChange } = props;
 
   return (
-    <div className="">
+    <div>
       <section>
-        <header className="">
-          <div>
-            <h1>Vincent Toon's Portfolio</h1>
+        <header className="hero">
+          <div className="hero-div">
+            <h1 className="hero-text">Vincent Toon's Portfolio</h1>
           </div>
-          <div className="">
-            <Nav
+          <div className="hero-nav">
+          <Nav
               currentTab={currentTab}
               handleTabChange={handleTabChange}
             ></Nav>

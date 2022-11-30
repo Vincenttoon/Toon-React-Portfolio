@@ -1,32 +1,35 @@
 import React from "react";
 import resume from '../../assets/resume/Resume.pdf';
 import { FaFileDownload } from 'react-icons/fa';
-import { GrTechnology } from 'react-icons/gr';
-import { GrPersonalComputer } from 'react-icons/gr';
+import { BsBook } from 'react-icons/bs';
+import { MdComputer } from 'react-icons/md';
 import { GiBrain } from 'react-icons/gi';
 
 
 function Resume() {
   return (
-    <div>
+    <div className="resume-cont">
       <section>
-        <div>
+        <div className="resume-head-div">
           <h2>Vincent's Resume:</h2>
         </div>
         <div className="download-div">
           <div className="resume-download">
             <a href={resume} className='download-logo' download>
-              <FaFileDownload />
+              <FaFileDownload  fontSize={'3em'}/>
             </a>
+            <p className="p-text-resume">
+              Click Icon above to download Vincen't resume to your local machine
+            </p>
           </div>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="card-container">
+        <div className="resume-card">
           <h3>Primary Practices:</h3>
           <ul>
             <li className="resume-logos">
-              <GrPersonalComputer />
+              <MdComputer fontSize={'3em'}/>
             </li>
             <li>Mongoose</li>
             <li>Express</li>
@@ -34,11 +37,11 @@ function Resume() {
             <li>Node.js</li>
           </ul>
         </div>
-        <div>
+        <div className="resume-card">
           <h3>Technologies:</h3>
           <ul>
           <li className="resume-logos">
-              <GrTechnology />
+              <BsBook fontSize={'3em'}/>
             </li>
             <li>Javascript</li>
             <li>HTML</li>
@@ -52,11 +55,11 @@ function Resume() {
             <li>SQL</li>
           </ul>
         </div>
-        <div>
+        <div className="resume-card">
           <h3>Logical Practices:</h3>
           <ul>
           <li className="resume-logos">
-              <GiBrain />
+              <GiBrain fontSize={'3em'}/>
             </li>
             <li>State</li>
             <li>OOP</li>
