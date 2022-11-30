@@ -1,4 +1,43 @@
-# Toon-React-Portfolio
+# Toon React Portfolio
+
+![Homesceen Image](/src/assets/images/homescreen.jpg)
+
+## License
+### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [MIT](https://opensource.org/licenses/MIT)
+
+## Description
+
+This is a single page application that displays my personal portfolio, sections include: About, Portfolio, Contact and Resume.
+
+By: [Vincent Toon](https://github.com/Vincenttoon)
+
+## Table of Contents
+
+* [Live Deployment Link](#live-deployment-link)
+
+* [Installation](#installation)
+
+* [Usage](#usage)  
+
+* [User Story](#user-story)
+
+* [Acceptance Criteria](#acceptance-criteria)
+
+* [Questions?](#questions)
+
+## Live Deployment Link
+
+(link here)
+
+## Installation
+
+* Head to the repository to download or view this code: [Toon React Portfolio](https://github.com/Vincenttoon/Toon-React-Portfolio)
+
+
+## Usage
+
+Visit deployed link and enjoy. View different tabs for different information, contact me though the corresponding tab and download my resume.
 
 ### User Story
 - AS AN employer looking for candidates with experience building single-page applications
@@ -31,3 +70,8 @@
 - THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 - WHEN I view the footer
 - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
+## Questions?
+
+Questions, comments, or concerns? Please Email me at:
+* vincenttoon22@gmail.com
