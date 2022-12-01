@@ -1,8 +1,8 @@
 {
   "name": "toon-react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://Vincenttoon.github.io/Toon-React-Portfolio",
   "private": true,
-  "homepage": "https://Vincenttoon.github.io/toon-react-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
