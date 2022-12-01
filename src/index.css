@@ -77,6 +77,7 @@ ul {
   flex-direction: row;
   font-size: 24px;
   padding-left: 40px;
+  text-shadow: 2px 2px #000000;
 }
 
 a nav-link:hover {
@@ -87,6 +88,7 @@ a nav-link:hover {
   font-size: 40px;
   text-decoration: underline;
   text-decoration-color: var(--third);
+  text-shadow: 2px 2px #000000;
 }
 
 
@@ -103,6 +105,7 @@ a nav-link:hover {
   color: var(--fourth);
   padding-top: 20px;
   text-decoration-color: var(--third);
+  text-shadow: 2px 2px #000000;
 }
 
 .about-details {
@@ -159,6 +162,7 @@ a nav-link:hover {
 
 .foot-h2 {
   font-size: 20px;
+  text-shadow: 2px 2px #000000;
 }
 
 .icon-li:hover {
@@ -185,6 +189,7 @@ a nav-link:hover {
   text-decoration: underline;
   text-decoration-color: var(--fourth);
   font-size: 23px;
+  text-shadow: 2px 2px #000000;
 }
 
 .project h4:hover {
@@ -217,6 +222,7 @@ a nav-link:hover {
   text-decoration: underline;
   text-decoration-color: var(--third);
   padding-top: 2%;
+  text-shadow: 2px 2px #000000;
 }
 
 .name-div {
@@ -278,6 +284,7 @@ a nav-link:hover {
   font-size: 30px;
   text-decoration: underline;
   text-decoration-color: var(--primary);
+  text-shadow: 2px 2px #000000;
 }
 
 .p-text-resume {
@@ -324,6 +331,13 @@ a nav-link:hover {
 
 .resume-card ul {
   margin-left: 0px;
+}
+
+.nav-link-active {
+  background-color: #EEEEEE;
+  color: #141E61;
+  text-decoration: underline;
+  text-decoration-color: var(--third);
 }
 
 @media screen and (max-width: 980px) {

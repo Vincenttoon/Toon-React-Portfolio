@@ -10,6 +10,7 @@ import './App.css';
 function App() {
 const [currentTab, handleTabChange] = useState('about');
 
+// if statement to return current tab and display that pages information
 const displayTab = () => {
   if (currentTab === 'About') {
     return <About />
@@ -31,6 +32,7 @@ const displayTab = () => {
       <Header currentTab={currentTab}
       handleTabChange={handleTabChange}
       ></Header>
+      {/* calling display tab to render correct page */}
       <main>{displayTab()}</main>
       <Footer />
     </div>
