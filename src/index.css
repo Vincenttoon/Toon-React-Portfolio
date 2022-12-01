@@ -301,7 +301,6 @@ a nav-link:hover {
 .resume-card {
   display: flex;
   flex-direction: column;
-  justify-content: start;
   width: 300px;
   background-color: var(--primary);
   margin:20px;
