@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/toon-react-portfolio/static/css/main.2212b944.css",
+    "main.js": "/toon-react-portfolio/static/js/main.2f86e64b.js",
+    "static/js/787.755a5a64.chunk.js": "/toon-react-portfolio/static/js/787.755a5a64.chunk.js",
+    "static/media/post-search.png": "/toon-react-portfolio/static/media/post-search.b744978ca4385684490e.png",
+    "static/media/me_pic.jpg": "/toon-react-portfolio/static/media/me_pic.07492b2c52a5eb922182.jpg",
+    "static/media/Results.jpg": "/toon-react-portfolio/static/media/Results.16743350a06382424d76.jpg",
+    "static/media/Resume.pdf": "/toon-react-portfolio/static/media/Resume.7802f03dbd63ac860bff.pdf",
+    "static/media/rise2challenge.jpg": "/toon-react-portfolio/static/media/rise2challenge.32737abdcd17db3fc3bd.jpg",
+    "static/media/jate-header-img.jpg": "/toon-react-portfolio/static/media/jate-header-img.0b42144e3fc59ea48cfc.jpg",
+    "static/media/ecom-img.jpg": "/toon-react-portfolio/static/media/ecom-img.6c84f327bc5fa3512fa7.jpg",
+    "index.html": "/toon-react-portfolio/index.html",
+    "main.2212b944.css.map": "/toon-react-portfolio/static/css/main.2212b944.css.map",
+    "main.2f86e64b.js.map": "/toon-react-portfolio/static/js/main.2f86e64b.js.map",
+    "787.755a5a64.chunk.js.map": "/toon-react-portfolio/static/js/787.755a5a64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2212b944.css",
+    "static/js/main.2f86e64b.js"
+  ]
+}
