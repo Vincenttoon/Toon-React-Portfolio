@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Toon-React-Portfolio/static/css/main.2212b944.css",
+    "main.css": "/Toon-React-Portfolio/static/css/main.a2a7e31a.css",
     "main.js": "/Toon-React-Portfolio/static/js/main.8efdd103.js",
     "static/js/787.755a5a64.chunk.js": "/Toon-React-Portfolio/static/js/787.755a5a64.chunk.js",
     "static/media/post-search.png": "/Toon-React-Portfolio/static/media/post-search.b744978ca4385684490e.png",
@@ -11,12 +11,12 @@
     "static/media/jate-header-img.jpg": "/Toon-React-Portfolio/static/media/jate-header-img.0b42144e3fc59ea48cfc.jpg",
     "static/media/ecom-img.jpg": "/Toon-React-Portfolio/static/media/ecom-img.6c84f327bc5fa3512fa7.jpg",
     "index.html": "/Toon-React-Portfolio/index.html",
-    "main.2212b944.css.map": "/Toon-React-Portfolio/static/css/main.2212b944.css.map",
+    "main.a2a7e31a.css.map": "/Toon-React-Portfolio/static/css/main.a2a7e31a.css.map",
     "main.8efdd103.js.map": "/Toon-React-Portfolio/static/js/main.8efdd103.js.map",
     "787.755a5a64.chunk.js.map": "/Toon-React-Portfolio/static/js/787.755a5a64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2212b944.css",
+    "static/css/main.a2a7e31a.css",
     "static/js/main.8efdd103.js"
   ]
 }
