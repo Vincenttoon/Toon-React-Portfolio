@@ -28,7 +28,7 @@ By: [Vincent Toon](https://github.com/Vincenttoon)
 
 ## Live Deployment Link
 
-(link here)
+[Portfolio Live Link](https://vincenttoon.github.io/Toon-React-Portfolio/)
 
 ## Installation
 
