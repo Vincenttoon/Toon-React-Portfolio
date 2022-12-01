@@ -338,6 +338,7 @@ a nav-link:hover {
   color: #141E61;
   text-decoration: underline;
   text-decoration-color: var(--third);
+  text-shadow: none;
 }
 
 @media screen and (max-width: 980px) {
