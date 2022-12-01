@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
+  // set original state to empty strings
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -20,6 +21,7 @@ function ContactForm() {
     }
   };
 
+  // handle contact form changes and create custom error messages
   const handleChange = (e) => {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
@@ -37,6 +39,7 @@ function ContactForm() {
     }
   };
 
+  // return form to display jsx
   return (
     <section className="contact-cont">
       <h1 className="contact-h1" data-testid="h1tag">Contact me</h1>

@@ -2,6 +2,7 @@ import React from "react";
 import meImg from "../../assets/small/me_pic.jpg";
 
 function About() {
+  // return about and display img
   return (
     <section className="about-section">
       <div className="about-text-div">

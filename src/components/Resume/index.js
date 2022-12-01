@@ -1,5 +1,6 @@
 import React from "react";
 import resume from '../../assets/resume/Resume.pdf';
+// import logos to use as components
 import { FaFileDownload } from 'react-icons/fa';
 import { BsBook } from 'react-icons/bs';
 import { MdComputer } from 'react-icons/md';
@@ -15,6 +16,7 @@ function Resume() {
         </div>
         <div className="download-div">
           <div className="resume-download">
+            {/* download imported PDF file through a-tag */}
             <a href={resume} className='download-logo' download>
               <FaFileDownload  fontSize={'3em'}/>
             </a>

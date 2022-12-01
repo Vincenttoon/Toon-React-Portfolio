@@ -5,6 +5,7 @@ function Header(props) {
   const { currentTab, handleTabChange } = props;
 
   return (
+    // include Nav in header return
     <div>
       <section>
         <header className="hero">
@@ -13,6 +14,7 @@ function Header(props) {
           </div>
           <div className="hero-nav">
           <Nav
+          // allow nav to adjust to selected tab and display that tabs information
               currentTab={currentTab}
               handleTabChange={handleTabChange}
             ></Nav>

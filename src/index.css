@@ -16,6 +16,13 @@ body {
   color: #EEEEEE;
 }
 
+
+ul {
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -36,11 +43,12 @@ nav {
   width: 100%;
   list-style: none;
 }
-
+/* 
 ul {
   list-style: none;
   flex-wrap: wrap;
-}
+  padding: none;
+} */
 
 .hero {
   width: 100%;
@@ -68,6 +76,7 @@ ul {
   justify-content: space-between;
   flex-direction: row;
   font-size: 24px;
+  padding-left: 40px;
 }
 
 a nav-link:hover {
@@ -141,6 +150,7 @@ a nav-link:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-right: 50px;
 }
 
 .icon-list li {
@@ -288,7 +298,14 @@ a nav-link:hover {
   width: 300px;
   background-color: var(--primary);
   margin:20px;
+  border-radius: 25px;
 }
+
+/* .resume-card ul {
+  display: flex;
+  padding: none;
+  flex-direction: column;
+} */
 
 .resume-logos {
   color: var(--third);
@@ -318,6 +335,12 @@ a nav-link:hover {
   .hero-nav ul {
     display: flex;
     font-size: 25px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .hero-nav ul li {
+    padding-bottom: 5px;
   }
 
   .vince-img {

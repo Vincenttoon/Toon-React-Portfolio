@@ -1,4 +1,5 @@
 import React from "react";
+// import icons from react-icons
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -15,6 +16,7 @@ function Footer() {
           <ul>
             <a href="https://github.com/Vincenttoon">
               <li className="icon-li">
+                {/* use imported icons as components */}
                 <FaGithub fontSize={'2em'}/>
               </li>
             </a>

@@ -9,7 +9,9 @@ function Nav(props) {
         <li className="">
           <a
             href="#about"
+            // change tab on click
             onClick={() => handleTabChange("About")}
+            // display active through class
             className={currentTab === "About" ? "nav-link-active" : "nav-link"}
           >
             About
