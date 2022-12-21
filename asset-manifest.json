@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/Toon-React-Portfolio/static/css/main.a2a7e31a.css",
-    "main.js": "/Toon-React-Portfolio/static/js/main.8efdd103.js",
+    "main.css": "/Toon-React-Portfolio/static/css/main.50dd8f1e.css",
+    "main.js": "/Toon-React-Portfolio/static/js/main.d3db8f7a.js",
     "static/js/787.755a5a64.chunk.js": "/Toon-React-Portfolio/static/js/787.755a5a64.chunk.js",
     "static/media/post-search.png": "/Toon-React-Portfolio/static/media/post-search.b744978ca4385684490e.png",
+    "static/media/book-worm-mason.jpg": "/Toon-React-Portfolio/static/media/book-worm-mason.0c57b9c8472927aa5f87.jpg",
     "static/media/me_pic.jpg": "/Toon-React-Portfolio/static/media/me_pic.07492b2c52a5eb922182.jpg",
+    "static/media/insomnia-thoughts.jpg": "/Toon-React-Portfolio/static/media/insomnia-thoughts.59c629a71f31b481a080.jpg",
+    "static/media/Live_Wire_Homepage.jpg": "/Toon-React-Portfolio/static/media/Live_Wire_Homepage.0ed3946fa526b5fad564.jpg",
     "static/media/Results.jpg": "/Toon-React-Portfolio/static/media/Results.16743350a06382424d76.jpg",
     "static/media/Resume.pdf": "/Toon-React-Portfolio/static/media/Resume.7802f03dbd63ac860bff.pdf",
     "static/media/rise2challenge.jpg": "/Toon-React-Portfolio/static/media/rise2challenge.32737abdcd17db3fc3bd.jpg",
+    "static/media/Izzy_sleeping.jpg": "/Toon-React-Portfolio/static/media/Izzy_sleeping.284a0f0cd7c389d26a12.jpg",
     "static/media/jate-header-img.jpg": "/Toon-React-Portfolio/static/media/jate-header-img.0b42144e3fc59ea48cfc.jpg",
     "static/media/ecom-img.jpg": "/Toon-React-Portfolio/static/media/ecom-img.6c84f327bc5fa3512fa7.jpg",
     "index.html": "/Toon-React-Portfolio/index.html",
-    "main.a2a7e31a.css.map": "/Toon-React-Portfolio/static/css/main.a2a7e31a.css.map",
-    "main.8efdd103.js.map": "/Toon-React-Portfolio/static/js/main.8efdd103.js.map",
+    "main.50dd8f1e.css.map": "/Toon-React-Portfolio/static/css/main.50dd8f1e.css.map",
+    "main.d3db8f7a.js.map": "/Toon-React-Portfolio/static/js/main.d3db8f7a.js.map",
     "787.755a5a64.chunk.js.map": "/Toon-React-Portfolio/static/js/787.755a5a64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a7e31a.css",
-    "static/js/main.8efdd103.js"
+    "static/css/main.50dd8f1e.css",
+    "static/js/main.d3db8f7a.js"
   ]
 }
