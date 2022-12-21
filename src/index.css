@@ -189,7 +189,7 @@ a nav-link:hover {
   text-decoration: underline;
   text-decoration-color: var(--fourth);
   font-size: 23px;
-  text-shadow: 2px 2px #000000;
+  /* text-shadow: 2px 2px #000000; */
 }
 
 .project h4:hover {
@@ -200,13 +200,27 @@ a nav-link:hover {
 }
 
 .port-img {
-  height: 250px;
-  width: 450px;
+  height: 150px;
+  width: 300px;
   border-radius: 25px;
+  filter: blur(2px);
+}
+
+.port-img-featured {
+  height: 350px;
+  width: 500px;
+  border-radius: 25px;
+  filter: blur(2px);
 }
 
 .port-img:hover {
-  filter: blur(2px);
+  box-shadow: 3px 3px 3px 3px var(--primary);
+  filter: none;
+}
+
+.port-img-featured:hover {
+  box-shadow: 3px 3px 3px 3px var(--primary);
+  filter: none;
 }
 
 .contact-cont {
@@ -389,7 +403,7 @@ a nav-link:hover {
     width: 100%;
   }
 
-  .port-img {
+  .port-img-featured {
     height: 150px;
     width: 300px;
   }
