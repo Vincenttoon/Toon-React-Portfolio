@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../src/components/Header";
-import About from "./components/About";
+import AboutPage from "./components/AboutPage";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/pages/Portfolio";
 import Resume from "../src/components/Resume";
@@ -13,7 +13,7 @@ const [currentTab, handleTabChange] = useState('about');
 // if statement to return current tab and display that pages information
 const displayTab = () => {
   if (currentTab === 'About') {
-    return <About />
+    return <AboutPage />
   }
   if (currentTab === 'Portfolio') {
     return <Portfolio />
@@ -24,7 +24,7 @@ const displayTab = () => {
   if (currentTab === 'Contact') {
     return <Contact />
   }
-  return <About />
+  return <AboutPage />
 }
 
   return (

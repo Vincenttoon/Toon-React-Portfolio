@@ -409,6 +409,8 @@ a nav-link:hover {
 
 /* === START CUSTOM CSS === */
 
+/* start featured page css */
+
 .f-cont {
   width: 85%;
 }
@@ -462,6 +464,75 @@ a nav-link:hover {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+/* end featured page css */
+
+/* start about page css */
+
+.about-me-cont {
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  width: 85%;
+
+}
+
+.bio-cont {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--bg-color);
+  max-width: 80%; 
+}
+
+.my-photo {
+  max-width: 40%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.vincent-info-container {
+  width: 50%;
+  height: 100%;
+  margin-left: 2em;
+  text-align: left;
+}
+
+.info-name {
+  text-shadow: 1px 1px 1px var(--secondary);
+}
+
+.info-job {
+  color: var(--third);
+  text-shadow: 0.5 0.5 0.5 var(--black);
+}
+
+.info-name::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 15em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+.info-job::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 10em;
+  background: var(--fourth);
+  margin: 0.5rem 0;
+  opacity: 0.8;
+}
+
+
+/* end about page css */
 
 /* === END CUSTOM CSS === */
 .page-title {
@@ -1323,6 +1394,24 @@ a nav-link:hover {
   .link-container {
     margin-bottom: 10px;
   }
+
+  .about-me-cont {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bio-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .my-photo {
+    max-width: 250px;
+    max-height: 350px;
+    margin: auto
+  }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -1396,6 +1485,19 @@ a nav-link:hover {
 
   .link-container {
     margin-bottom: 10px;
+  }
+
+  .about-me-cont {
+    text-align: left;
+  }
+
+  .my-photo {
+    display: none;
+  }
+
+  .vincent-info-container {
+    max-height: 30%;
+    max-width: ;
   }
 }
 
