@@ -3,7 +3,7 @@ import Header from "../src/components/Header";
 import AboutPage from "./components/AboutPage";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/pages/Portfolio";
-import Resume from "../src/components/Resume";
+import Technologies from "../src/pages/Technologies";
 import Footer from "../src/components/Footer";
 import './App.css';
 
@@ -18,8 +18,8 @@ const displayTab = () => {
   if (currentTab === 'Portfolio') {
     return <Portfolio />
   }
-  if (currentTab === 'Resume') {
-    return <Resume />
+  if (currentTab === 'Technologies') {
+    return <Technologies />
   }
   if (currentTab === 'Contact') {
     return <Contact />

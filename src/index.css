@@ -143,7 +143,7 @@ li {
   flex-direction: row;
   font-size: 24px;
   padding-left: 40px;
-  color: var(--fourth);
+  color: var(--white);
   text-shadow: 1px 1px var(--black);
 }
 
@@ -154,8 +154,6 @@ a nav-link:hover {
 
 .hero-text {
   font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: var(--black);
   text-shadow: 2px 2px var(--primary);
   color: var(--black);
   margin-top: 23px;
@@ -347,7 +345,7 @@ a nav-link:hover {
 }
 
 .resume-cont {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -408,7 +406,7 @@ a nav-link:hover {
   background-color: var(--black);
   color: var(--primary);
   text-decoration: underline;
-  text-decoration-color: var(--fourth);
+  text-decoration-color: var(--primary);
   border-radius: 25px;
 }
 
@@ -545,6 +543,16 @@ a nav-link:hover {
 
 
 /* end about page css */
+
+/* start technologies css */
+
+
+.ul-class {
+  padding: 0;
+}
+
+
+/* end technologies css */
 
 /* === END CUSTOM CSS === */
 .page-title {
@@ -1439,6 +1447,11 @@ a nav-link:hover {
 
   .info-job::after {
     width: 12em;
+  }
+
+  .card-container {
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
 

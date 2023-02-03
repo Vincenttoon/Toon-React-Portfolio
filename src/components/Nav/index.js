@@ -30,6 +30,15 @@ function Nav(props) {
         </li>
         <li>
           <a
+            href="#technologies"
+            onClick={() => handleTabChange("Technologies")}
+            className={currentTab === "Technologies" ? "nav-link-active" : "nav-link"}
+          >
+            Technologies
+          </a>
+        </li>
+        <li>
+          <a
             href="#contact"
             onClick={() => handleTabChange("Contact")}
             className={
@@ -37,15 +46,6 @@ function Nav(props) {
             }
           >
             Contact
-          </a>
-        </li>
-        <li>
-          <a
-            href="#resume"
-            onClick={() => handleTabChange("Resume")}
-            className={currentTab === "Resume" ? "nav-link-active" : "nav-link"}
-          >
-            Resume
           </a>
         </li>
       </ul>

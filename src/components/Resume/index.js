@@ -10,26 +10,10 @@ import { GiBrain } from 'react-icons/gi';
 function Resume() {
   return (
     <div className="resume-cont">
-      <section>
-        <div className="resume-head-div">
-          <h2>Vincent's Resume:</h2>
-        </div>
-        <div className="download-div">
-          <div className="resume-download">
-            {/* download imported PDF file through a-tag */}
-            <a href={resume} className='download-logo' download>
-              <FaFileDownload  fontSize={'3em'}/>
-            </a>
-            <p className="p-text-resume">
-              Click Icon above to download Vincen't resume to your local machine
-            </p>
-          </div>
-        </div>
-      </section>
       <section className="card-container">
         <div className="resume-card">
           <h3>Primary Practices:</h3>
-          <ul>
+          <ul className="ul-class">
             <li className="resume-logos">
               <MdComputer fontSize={'3em'}/>
             </li>
@@ -37,17 +21,17 @@ function Resume() {
             <li>Express</li>
             <li>React</li>
             <li>Node.js</li>
+            <li>JS6</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
           </ul>
         </div>
         <div className="resume-card">
           <h3>Technologies:</h3>
-          <ul>
+          <ul className="ul-class">
           <li className="resume-logos">
               <BsBook fontSize={'3em'}/>
             </li>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
             <li>Progressive Web Applications</li>
             <li>Bootstrap</li>
             <li>Bulma</li>
@@ -59,7 +43,7 @@ function Resume() {
         </div>
         <div className="resume-card">
           <h3>Logical Practices:</h3>
-          <ul>
+          <ul className="ul-class">
           <li className="resume-logos">
               <GiBrain fontSize={'3em'}/>
             </li>

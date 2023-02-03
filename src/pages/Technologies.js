@@ -1,19 +1,17 @@
 import React from "react";
-import resume from '../../assets/resume/Resume.pdf';
 // import logos to use as components
-import { FaFileDownload } from 'react-icons/fa';
 import { BsBook } from 'react-icons/bs';
 import { MdComputer } from 'react-icons/md';
 import { GiBrain } from 'react-icons/gi';
 
 
-function Resume() {
+const Technologies = () => {
   return (
     <div className="resume-cont">
       <section className="card-container">
         <div className="resume-card">
           <h3>Primary Practices:</h3>
-          <ul>
+          <ul className="ul-class">
             <li className="resume-logos">
               <MdComputer fontSize={'3em'}/>
             </li>
@@ -21,29 +19,29 @@ function Resume() {
             <li>Express</li>
             <li>React</li>
             <li>Node.js</li>
+            <li>JS6</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
           </ul>
         </div>
         <div className="resume-card">
           <h3>Technologies:</h3>
-          <ul>
+          <ul className="ul-class">
           <li className="resume-logos">
               <BsBook fontSize={'3em'}/>
             </li>
-            <li>Javascript</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
+            <li>Sequelize</li>
             <li>Progressive Web Applications</li>
+            <li>API's</li>
             <li>Bootstrap</li>
             <li>Bulma</li>
-            <li>API's</li>
-            <li>Sequelize</li>
-            <li>NoSQL</li>
-            <li>SQL</li>
           </ul>
         </div>
         <div className="resume-card">
           <h3>Logical Practices:</h3>
-          <ul>
+          <ul className="ul-class">
           <li className="resume-logos">
               <GiBrain fontSize={'3em'}/>
             </li>
@@ -59,4 +57,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default Technologies;
