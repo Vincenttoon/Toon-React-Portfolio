@@ -2,6 +2,7 @@ import React from "react";
 
 import breweryFinderImg from "../../assets/small/post-search.png";
 import liveWireImg from "../../assets/small/Live_Wire_Homepage.jpg";
+import employeeTrackerImg from "../../assets/small/command-line-action.jpg";
 
 const Featured = () => {
   return (
@@ -54,6 +55,30 @@ const Featured = () => {
           </h5>
           <h5 className="proj-link-text-2">
             <a href="https://github.com/Vincenttoon/brewery-finder">Github</a>
+          </h5>
+        </div>
+      </div>
+
+      <div className="flex-column project-cont-1">
+        <h4 className="f-proj-title">Employee Tracker</h4>
+        <div className="flex-row justify-space-around proj-info-cont-2">
+          <img
+            src={employeeTrackerImg}
+            className="port-img"
+            alt="Employee Tracker SQL example"
+          />
+          <p className="f-proj-desc mt-5">
+            SQL Back end application using a content management system. This
+            project mimics a company's employee list with their jobs, salary and
+            managers.
+          </p>
+        </div>
+        <div className="link-container flex-row justify-space-around">
+          <h5 className="proj-link-text">
+            <a href="https://drive.google.com/file/d/1QJjaNJ6SWj9D_mGSDWqYwiamMNUx2Do6/view">Video Demonstration</a>
+          </h5>
+          <h5 className="proj-link-text">
+            <a href="https://github.com/Vincenttoon/employee-tracker-extraordinaire">Github</a>
           </h5>
         </div>
       </div>
