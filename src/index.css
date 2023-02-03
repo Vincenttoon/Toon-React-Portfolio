@@ -20,8 +20,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #787A91;
-  color: #EEEEEE;
+  background-color: var(--primary);
+  color: var(--black);
 }
 
 
@@ -238,12 +238,17 @@ a nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #0F044C;
 }
-.project-cont {
+.project-cont-1, .project-cont-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
   width: 85%;
+  border-radius: 25px;
+}
+
+.project-cont-2 {
+  background-color: var(--secondary);
 }
 
 .project h4 {
@@ -265,10 +270,6 @@ a nav-link:hover {
   height: 250px;
   width: 450px;
   border-radius: 25px;
-}
-
-.port-img:hover {
-  filter: blur(2px);
 }
 
 .contact-cont {
@@ -406,6 +407,63 @@ a nav-link:hover {
 
 /* === START SANDBOX CSS === */
 
+/* === START CUSTOM CSS === */
+
+.f-cont {
+  width: 85%;
+}
+
+.featured-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-color: var(--third);
+  text-shadow: 2px 2px 2px var(--secondary);
+}
+
+.f-proj-title {
+  margin-top: 15px;
+  margin-bottom: 23px;
+  text-decoration: underline;
+  text-decoration-color: var(--third);
+  text-shadow: 2px 2px 2px var(--secondary);
+}
+
+.f-proj-title-2 {
+  margin-top: 15px;
+  margin-bottom: 23px;
+  text-decoration: underline;
+  text-decoration-color: var(--fourth);
+  text-shadow: 2px 2px 2px var(--primary);
+}
+
+.f-proj-desc {
+  width: 50%;
+  margin-top: 55px;
+}
+
+.proj-link-text, .proj-link-text-2 {
+  text-shadow: 1px 1px 1px var(--secondary);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.proj-link-text:hover {
+  color: var(--fourth);
+  text-decoration: underline;
+}
+
+.proj-link-text-2:hover {
+  color: var(--third);
+  text-decoration: underline;
+}
+
+.link-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* === END CUSTOM CSS === */
 .page-title {
   text-align: center;
   width: 100%;
@@ -1228,6 +1286,43 @@ a nav-link:hover {
   .vince-img {
     width: 40%;
   }
+
+  .f-proj-desc {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .f-proj-title-2 {
+    margin-bottom: 0px;
+  }
+
+  .proj-info-cont {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .proj-info-cont-2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  .project-cont-1 {
+    width: 100%;
+  }
+
+  .project-cont-2 {
+    width: 100%;
+  }
+
+  .proj-link-text-2 {
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+
+  .link-container {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1266,6 +1361,42 @@ a nav-link:hover {
     width: 300px;
   }
 
+  .f-proj-desc {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .f-proj-title-2 {
+    margin-bottom: 0px;
+  }
+
+  .proj-info-cont {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .proj-info-cont-2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  .project-cont-1 {
+    width: 100%;
+  }
+
+  .project-cont-2 {
+    width: 100%;
+  }
+
+  .proj-link-text-2 {
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+
+  .link-container {
+    margin-bottom: 10px;
+  }
 }
 
 /* === END ORIGINAL MQ === */
