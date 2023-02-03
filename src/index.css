@@ -39,7 +39,7 @@ body {
   padding: 0;
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-size: 20px;
   color: var(--dark);
   background-color: #f3fffee1;
@@ -107,8 +107,12 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--secondary);
-  background-color: var(--dark);
+  color: var(--third);
+  text-shadow: 1px 1px var(--primary);
+}
+
+li {
+  list-style: none;
 }
 
 /* === START ORIGINAL CSS === */
@@ -117,19 +121,19 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: #EEEEEE;
+  padding-bottom: 10px;
 }
 
 .hero-div {
   display: flex;
-  width: 45%;
+  width: 33%;
   justify-content: center;
 }
 
 .hero-nav {
-  padding-top: 23px;
-
+  padding-top: 10px;
 }
 
 .hero-nav ul {
@@ -139,18 +143,22 @@ nav a:hover {
   flex-direction: row;
   font-size: 24px;
   padding-left: 40px;
-  text-shadow: 2px 2px #000000;
+  color: var(--fourth);
+  text-shadow: 1px 1px var(--black);
 }
 
 a nav-link:hover {
-  color: #787A91;
+  color: var(--third);
+  text-shadow: 1px 1px var(--white);
 }
 
 .hero-text {
   font-size: 40px;
   text-decoration: underline;
-  text-decoration-color: var(--third);
-  text-shadow: 2px 2px #000000;
+  text-decoration-color: var(--black);
+  text-shadow: 2px 2px var(--primary);
+  color: var(--black);
+  margin-top: 23px;
 }
 
 
@@ -397,9 +405,14 @@ a nav-link:hover {
 }
 
 .nav-link-active {
-  background-color: #EEEEEE;
-  color: #141E61;
+  background-color: var(--black);
+  color: var(--primary);
   text-decoration: underline;
+  text-decoration-color: var(--fourth);
+  border-radius: 25px;
+}
+
+.nav-link-active:hover {
   text-decoration-color: var(--third);
 }
 
@@ -492,7 +505,6 @@ a nav-link:hover {
   max-height: 100%;
   object-fit: cover;
   object-position: center;
-  
 }
 
 .vincent-info-container {
@@ -1398,20 +1410,54 @@ a nav-link:hover {
   .about-me-cont {
     flex-direction: column;
     justify-content: center;
+    width: auto;
+    text-align: center;
   }
 
   .bio-cont {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
+    width: auto;
+    margin-left: 50px;
+  }
+
+  .vincent-info-container {
+    width: auto;
+    text-align: left;
   }
 
   .my-photo {
-    max-width: 250px;
-    max-height: 350px;
-    margin: auto
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
   }
 
+  .info-name::after {
+    width: 10em;
+  }
+
+  .info-job::after {
+    width: 12em;
+  }
+}
+
+@media screen and (max-width: 850) {
+
+  .about-me-cont {
+    flex-direction: row;
+    width: 85%;
+  }
+
+  .bio-cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .vincent-info-container {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1488,16 +1534,27 @@ a nav-link:hover {
   }
 
   .about-me-cont {
-    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+  }
+
+  .bio-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin-left: 9px;
+  }
+
+  .vincent-info-container {
+    width: auto;
+    text-align: center;
   }
 
   .my-photo {
     display: none;
-  }
-
-  .vincent-info-container {
-    max-height: 30%;
-    max-width: ;
   }
 }
 

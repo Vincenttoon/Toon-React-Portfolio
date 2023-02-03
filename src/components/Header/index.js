@@ -10,7 +10,7 @@ function Header(props) {
       <section>
         <header className="hero">
           <div className="hero-div">
-            <h1 className="hero-text">Vincent Toon's Portfolio</h1>
+            <h1 className="hero-text">Vincent Toon</h1>
           </div>
           <div className="hero-nav">
           <Nav

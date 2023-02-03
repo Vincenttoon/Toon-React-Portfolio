@@ -4,7 +4,7 @@ function Nav(props) {
   const { currentTab, handleTabChange } = props;
 
   return (
-    <nav>
+    <nav className="">
       <ul className="nav">
         <li className="">
           <a
