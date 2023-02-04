@@ -4,7 +4,7 @@ import AboutPage from "./components/AboutPage";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/pages/Portfolio";
 import Technologies from "../src/pages/Technologies";
-import Footer from "../src/components/Footer";
+import FooterComponent from "../src/components/Footer";
 import './App.css';
 
 function App() {
@@ -34,7 +34,7 @@ const displayTab = () => {
       ></Header>
       {/* calling display tab to render correct page */}
       <main>{displayTab()}</main>
-      <Footer />
+      <FooterComponent />
     </div>
   );
 }

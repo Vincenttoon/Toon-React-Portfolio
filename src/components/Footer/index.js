@@ -3,14 +3,18 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Layout } from 'antd';
 
-function Footer() {
+const { Footer } = Layout;
+
+function FooterComponent() {
+
   return (
-    <div className="footer-div">
-      <div>
-        <h2 className="foot-h2">Created by: Vince Toon</h2>
+    <Footer className="footer-div">
+      {/* <div>
+        <h2 className="foot-h2">Vince Toon</h2>
        
-      </div>
+      </div> */}
       <div className="icon-list">
         <div>
           <ul>
@@ -33,8 +37,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-    </div>
+    </Footer>
   );
 }
 
-export default Footer;
+export default FooterComponent;
