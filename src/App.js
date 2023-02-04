@@ -5,7 +5,6 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/pages/Portfolio";
 import Technologies from "../src/pages/Technologies";
 import FooterComponent from "../src/components/Footer";
-import './App.css';
 
 function App() {
 const [currentTab, handleTabChange] = useState('about');

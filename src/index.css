@@ -29,6 +29,11 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex: 1;
+}
+
 html,
 body {
   min-height: 100%;
@@ -368,6 +373,7 @@ a nav-link:hover {
 .resume-card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* justify-content: start; */
   width: 300px;
   background-color: var(--primary);
@@ -383,6 +389,7 @@ a nav-link:hover {
 
 .resume-logos {
   color: var(--third);
+  align-self: center;
 }
 
 .resume-card li {
@@ -427,6 +434,7 @@ a nav-link:hover {
 .featured-title {
   margin-top: 30px;
   margin-bottom: 15px;
+  align-self: center;
   text-decoration: underline;
   text-decoration-color: var(--third);
   text-shadow: 2px 2px 2px var(--secondary);
@@ -435,6 +443,7 @@ a nav-link:hover {
 .f-proj-title {
   margin-top: 15px;
   margin-bottom: 23px;
+  align-self: center;
   text-decoration: underline;
   text-decoration-color: var(--third);
   text-shadow: 2px 2px 2px var(--secondary);
@@ -443,6 +452,7 @@ a nav-link:hover {
 .f-proj-title-2 {
   margin-top: 15px;
   margin-bottom: 23px;
+  align-self: center;
   text-decoration: underline;
   text-decoration-color: var(--fourth);
   text-shadow: 2px 2px 2px var(--primary);
